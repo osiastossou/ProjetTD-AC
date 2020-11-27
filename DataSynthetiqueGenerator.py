@@ -1,19 +1,21 @@
 # Intialisation. 
 import pandas as pd
 import random
-na = 6
-no = 1000
-ns = 10
+
+na = 6 # Number of attribut
+no = 1000 # Number of object
+ns = 10 # Number of source
 attributs = ['Property'+str(x) for x in range(1,na+1)]
 objects = ['Object'+str(x) for x in range(1,no+1)]
 sources = ['Source'+str(x) for x in range(1,ns+1)]
-#m1 = 1.0
-#m2 = 0.0
-#m3 = 1.0 
-m1 = 1.0
+
+# Set of paramete (the value wil be between 0 and 1) : description un the papar
+m1 = 1.0 
 m2 = 0.0
 m3 = 0.8 
-floder = ""
+
+# Floder to save the data after generated.
+floder = "" 
 
 
 # Definistion des valeurs vraix (GT)
