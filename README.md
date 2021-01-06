@@ -12,6 +12,8 @@ This paper presents **TD-AC** which is an effective algorithm for the truth disc
 
 # Code Run description :
 
+Open the file main.py
+
 .....
 
 
