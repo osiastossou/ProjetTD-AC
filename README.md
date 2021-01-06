@@ -12,7 +12,15 @@ This paper presents **TD-AC** which is an effective algorithm for the truth disc
 
 # Code Run description :
 
-Open the file main.py
+Open the file Main.py
+
+You need to set this two variable to choose  
+
+version = "s" # s = Sequentiel et p = Parallel (For p, you need to have spark and pyspark on your environnement)
+algo = "mv" # mv = MajorityVoting, tf = Truth Finder, dp = DEPEN , ac = Accu , acs = AccuSim, agp = AccuGenPartition, tdac = TD-AC
+
+
+*Note : We are stell work on the parallèle version.*
 
 .....
 
